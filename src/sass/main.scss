@@ -1,0 +1,94 @@
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 20;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-title {
+  margin-top: 20px;
+  text-align: center;
+
+  font-size: 60px;
+}
+
+.query {
+  border: 1px solid #585858;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 20px;
+  min-width: 400px;
+  height: 50px;
+}
+
+.content-container {
+  margin-top: 30px;
+}
+
+.countries-list {
+  padding-left: 60px;
+
+  font-size: 20px;
+}
+
+.countries-list-elem:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.card {
+  width: fit-content;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 20px;
+}
+
+.card-list {
+  margin-right: 25px;
+}
+
+.card-list-elem {
+  font-size: 20px;
+}
+
+// .card-list-elem-title {
+//   font-size: 20px;
+// }
+
+.card-list-elem-title,
+.card-list-elem-text {
+  display: inline-block;
+}
+
+.card-list-elem:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.card-list-list {
+  padding-left: 25px;
+}

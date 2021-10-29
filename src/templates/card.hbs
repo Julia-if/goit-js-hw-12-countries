@@ -1,0 +1,26 @@
+<div class="js-card card">
+    <h2 class="card-title">{{name}}</h2>
+    <div class="card-content">
+        <ul class="card-list list">
+            <li class="card-list-elem ">
+                <h3 class="card-list-elem-title">Capital:</h3>
+                <p class="card-list-elem-text">{{capital}}</p>
+            </li>
+            <li class="card-list-elem">
+                <h3 class="card-list-elem-title">Population:</h3>
+                <p class="card-list-elem-text">{{population}}</p>
+            </li>
+            <li class="card-list-elem">
+                <h3 class="card-list-elem-title">Languages:</h3>
+                <ul class="card-list-list">
+                    {{#each languages}}
+                    <li class="card-list-list-elem">
+                        <p class="card-list-elem-text">{{name}}</p>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </ul>
+        <img class="card-picture" src={{flags.png}} alt={{name}}>
+    </div>
+</div>
